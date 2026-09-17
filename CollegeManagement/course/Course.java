@@ -1,6 +1,7 @@
-package APP.CollegeManagement.course;
+package CollegeManagement.course;
 
 public class Course {
+
     String courseId;
     String courseName;
     int credits;
