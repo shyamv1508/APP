@@ -1,9 +1,0 @@
-1. College Management System - separate Student and Course packages; import into Main and display information.
-
-2. Hospital Management System - separate doctor and patient packages; private fields, constructors, getters, display methods; create two doctors and three patients; assign patients by specialization; display patient and treating doctor; calculate total consultation fee per doctor.
-
-3. Online Examination System - implement remaining time, auto-save, and network checking using Runnable; create named Thread objects; use sleep() and display thread name/activity.
-
-4. Banking Application - implement transaction processing, balance updating, and SMS notification using Runnable; named threads; different sleep delays; each activity executes three times with thread name, activity, and count.
-
-5. Smart Traffic Management System - extend Thread for three junctions; unique names; override run(); display traffic status three times; use different sleep intervals.
