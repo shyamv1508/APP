@@ -3,7 +3,7 @@ class RemainingTime implements Runnable {
         for (int i = 1; i <= 3; i++) {
             System.out.println(Thread.currentThread().getName() + " - Remaining time: " + (30 - i * 5) + " minutes");
             try { Thread.sleep(1000); } catch (InterruptedException e) { Thread.currentThread().interrupt(); }
-        }
+        } 
     }
 }
 
