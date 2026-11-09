@@ -13,7 +13,10 @@ def main():
     print("\nPolynomial:", polynomial)
     print("Factorized expression:", sp.factor(polynomial))
 
-    unsimplified = (x**2 - 1) / (x - 1)
+    # Keep the fraction unevaluated so simplify() visibly performs the cancellation.
+    unsimplified = sp.Mul(
+        x**2 - 1, sp.Pow(x - 1, -1, evaluate=False), evaluate=False
+    )
     print("\nExpression to simplify:", unsimplified)
     print("Simplified expression:", sp.simplify(unsimplified))
 
